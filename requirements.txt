@@ -2,6 +2,7 @@ Flask
 Flask-Migrate
 Flask-SQLAlchemy
 flask_wtf
-psycopg2
+psycopg2-binary
 python-dotenv
 SQLAlchemy
+gunicorn

@@ -6,6 +6,7 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 
+print('************************************************************************ hiya ****')
 
 app = Flask(__name__, static_folder='static')
 csrf = CSRFProtect(app)
